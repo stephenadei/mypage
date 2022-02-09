@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Zefani";
-  src: url("fonts/zefani.otf");
+  src: url("../fonts/zefani.otf");
 }
 
 body {
@@ -68,7 +68,7 @@ header ul a {
 }
 
 .hero {
-  background-image: url("img/me2.JPG");
+  background-image: url("../img/me2.JPG");
   background-color: #6e00ff;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,5 +97,9 @@ header ul a {
 .scroll {
   width: 30px;
   margin-top: 3em;
+}
+
+section {
+  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
