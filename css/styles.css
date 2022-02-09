@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Zefani";
-  src: url("../fonts/zefani.otf");
+  src: url("fonts/zefani.otf");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   font-family: "OrkneyRegular", arial;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -31,6 +31,15 @@ img {
   color: white;
 }
 
+.logo {
+  color: #00f7ff;
+  font-family: "Zefani";
+  font-size: xx-large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,15 +48,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2em;
-}
-
-header .logo {
-  color: #00f7ff;
-  font-family: "Zefani";
-  font-size: xx-large;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 header ul {
@@ -92,14 +92,5 @@ header ul a {
 
 .meet span {
   margin-right: .5em;
-}
-
-.scroll {
-  width: 30px;
-  margin-top: 3em;
-}
-
-section {
-  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
