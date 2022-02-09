@@ -4,7 +4,8 @@
 }
 
 body {
-  height: 100vh;
+  text-align: center;
+  width: 80%;
   margin: 0;
   font-family: "OrkneyRegular", arial;
 }
@@ -87,10 +88,26 @@ header ul a {
   margin: 0 auto;
   width: 200px;
   font-weight: bold;
-  color: #ff65cb;
+  color: #a18c9a;
 }
 
 .meet span {
   margin-right: .5em;
+}
+
+.image_container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.project_table_container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#clubs {
+  text-align: left;
 }
 /*# sourceMappingURL=styles.css.map */
